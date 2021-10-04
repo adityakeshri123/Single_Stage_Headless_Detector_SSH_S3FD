@@ -1,5 +1,7 @@
 
-### Requirement: P ytorch, OpenCV, NumPy and easydict library.
+## Dataset: F irst download the wider face dataset (training, validation, testing and
+face annotation) from this link http://shuoyang1213.me/WIDERFACE/.
+### Requirement: Pytorch, OpenCV, NumPy and easydict library.
 ## Setup and Modification:
 ● First, make the “WIDER” folder inside the “S3FD” folder. Then download the wider face dataset and move the “wider face dataset” file inside the “WIDER” folder.
 ● Modify the data/config.py file. Set the absolute path of the S3FD folder in “_C.HOME variable”.
